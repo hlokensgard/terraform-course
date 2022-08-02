@@ -10,7 +10,7 @@ resource "azurerm_resource_group" "my_resource_group" {
 }
 
 # Part two
-resource "azurerm_resource_group" "my_resource_group" {
+resource "azurerm_resource_group" "my_resource_group_with_tag" {
     name = "my_first_resource_group"
     location = "westeurope"
     tags = {
