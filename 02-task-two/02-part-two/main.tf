@@ -1,5 +1,5 @@
 provider "azurerm" {
-    subscription_id = "83903753-3274-4d41-b1a8-635abfe558da"
+    subscription_id = ""
     features {} # terraform needs this to configure the provider 
 }
 
